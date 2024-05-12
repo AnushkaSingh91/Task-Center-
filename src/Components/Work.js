@@ -1,24 +1,30 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
+import PickMeals from "../Assets/attendance.png";
 import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import DeliveryMeals from "../Assets/form.svg";
+import Liberary from "../Assets/library.png"
 
 const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Attendance System",
+      text: "Mark you attendance here",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Discussion Forum",
+      text: "Express you thoughts and opinions here ",
+    },
+    {
+      image: Liberary,
+      title: "Library system",
+      text: "Explore the world of literature here",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      title: "Event management",
+      text: "Explore the latest upcoming events",
     },
   ];
   return (
@@ -27,8 +33,7 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Simplify processes, enhance organization, and optimize resource utilization with Task Center today!
         </p>
       </div>
       <div className="work-section-bottom">

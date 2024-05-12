@@ -15,21 +15,25 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Comprehensive Interaction Platform
+
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Revolutionize our institution with Task Center, an all-in-one solution to streamline essential tasks and elevate efficiency. From manual attendance to library management, event coordination, parking logistics, mess rebate, and feedback collection, Task Center empowers administrators to oversee diverse operations within a unified platform effortlessly.
         </p>
-        <p className="primary-text">
+
+
+        {/* <p className="primary-text">
           Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
           facilisis at fringilla quam.
-        </p>
+        </p> */}
+
+
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
+          {/* <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
