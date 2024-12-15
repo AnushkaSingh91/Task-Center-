@@ -1,1 +1,1 @@
-A simple landing page - first designed in figma and then coded in React. 
+A simple landing page - first designed in figma and then coded in Js. 
